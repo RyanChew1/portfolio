@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .pattern-container {
+  background-color: #fff;
+  height: 300px;
+  width: 300px;
+  position: relative;
+  overflow: hidden;
+}
+
+.pattern-text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 10px;
+  line-height: 10px;
+  text-transform: uppercase;
+  transform: rotate(-45deg);
+}
+
+.pattern-text:nth-child(2n) {
+  transform: rotate(45deg);
+}
+
+.pattern-text:nth-child(3n) {
+  font-size: 14px;
+  line-height: 14px;
+}
+
+.pattern-text:nth-child(4n) {
+  font-size: 16px;
+  line-height: 16px;
+}
+
+.pattern-text:nth-child(5n) {
+  font-size: 12px;
+  line-height: 12px;
+}
+
+.pattern-text:nth-child(6n) {
+  font-size: 18px;
+  line-height: 18px;
+}
+
+.pattern-text:nth-child(7n) {
+  font-size: 20px;
+  line-height: 20px;
+}
+
+.pattern-text:nth-child(8n) {
+  font-size: 22px;
+  line-height: 22px;
+}
+
+.pattern-text:nth-child(9n) {
+  font-size: 24px;
+  line-height: 24px;
+}
+
+.pattern-text:nth-child(10n) {
+  font-size: 26px;
+  line-height: 26px;
+}
+
+    </style>
+</head>
+<body>
+    <div class="pattern-container">
+        <div class="pattern-text">HELLO WORLD</div>
+      </div>
+</body>
+</html>
